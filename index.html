@@ -30,8 +30,11 @@
     <!--div id="overview1" class="step" data-x="0" data-y="0" data-scale="2">
     </div-->
     
-    <div id="PresentationTitle" class="step overview" data-x="0" data-y="-400" data-z="3000" data-scale="1">
-        <h1>Master Thesis HEADING</h1>
+    <div id="PresentationTitle" class="step overview" data-x="0" data-y="-900" data-z="3000" data-scale="1">
+        <h1>The creation of a web-based performance visualization tool for a mid-size consultant company</h1>
+        <h1>By Albin Blent</h1>
+        <br>
+        <br>
     </div>
     
     <div id="overview2" class="step" data-x="0" data-y="0">
@@ -82,7 +85,13 @@
             <br>
             <ul>
                 <li>Purpose of the system</li>
-                <li>Purpose of thesis work</li>
+                <ul>
+                    <li>Provide performance feedback for employees</li>
+                </ul>
+                <li style="margin-top: 10px;">Purpose of thesis work</li>
+                <ul>
+                    <li>Evaluate usability methods when developing software</li>
+                </ul>
             </ul>
         </div>
         
@@ -143,16 +152,73 @@
                 </ul>
                 <li>Coding phase</li>
                 <ul>
-                    <li>Pair programming</li>
                     <li>Test driven development</li>
-                    <li>and more...</li>
                 </ul>
                 <li>Testing phase</li>
                 <ul>
                     <li>Unit testing</li>
-                    <li>Regression testing</li>
                     <li>Usability testing</li>
-                    <li>and more...</li>
+                </ul>
+             </ul>
+        </div>
+        
+        <div id="UseCase" class="step slide" data-x="1000" data-y="-600" data-z="-100000">
+            <h1 style="font-size: 40px; margin-bottom: 20px;">Use Case - Must have requirements</h1>
+            <img src="UseCase.png" style="width:600px;height:600px; background-color: white;">
+        </div>
+        
+        <div id="SCRUM" class="step slide" data-x="1000" data-y="400" data-z="-100000">
+            <h1>Agile Software Development</h1>
+            <br>
+            <ul>
+                <li>Planning phase</li>
+                <ul>
+                    <li>Scenarios/User stories</li>
+                    <li>Requirements</li>    
+                </ul>
+                <li>Design phase</li>
+                <ul>
+                    <li>Architecture</li>
+                    <li>Design</li>
+                </ul>
+                <li>Coding phase</li>
+                <ul>
+                    <li>Test driven development</li>
+                </ul>
+                <li>Testing phase</li>
+                <ul>
+                    <li>Unit testing</li>
+                    <li>Usability testing</li>
+                </ul>
+             </ul>
+        </div>
+        
+        <div id="architecture" class="step" data-x="2000" data-y="-600" data-z="-100000">
+            <img src="architecture.png" style="width:800px;height:800px; background-color: white;">
+        </div>
+        
+        <div id="SCRUM" class="step slide" data-x="1000" data-y="400" data-z="-100000">
+            <h1>Agile Software Development</h1>
+            <br>
+            <ul>
+                <li>Planning phase</li>
+                <ul>
+                    <li>Scenarios/User stories</li>
+                    <li>Requirements</li>    
+                </ul>
+                <li>Design phase</li>
+                <ul>
+                    <li>Architecture</li>
+                    <li>Design</li>
+                </ul>
+                <li>Coding phase</li>
+                <ul>
+                    <li>Test driven development</li>
+                </ul>
+                <li>Testing phase</li>
+                <ul>
+                    <li>Unit testing</li>
+                    <li>Usability testing</li>
                 </ul>
              </ul>
         </div>
@@ -170,7 +236,19 @@
         </div>
         
         <div id="TestDrivenDevelopment" class="step slide" data-x="1000" data-y="1200" data-z="-100000">
-            <h1>Test Driven Development</h1>
+            <h1 style="margin: 10px;">Test Driven Development</h1>
+            <ul>
+                <li style="margin: 10px;  margin-top: 30px;">Unit test drives the development</li>
+                <ul>
+                    <li>First write test...</li>
+                    <li>then implement new functionality to satisfy the test</li>
+                </ul> 
+                <li style="margin: 10px;">The tests creates a "safety-net"</li>
+                <ul>
+                    <li>Refactoring</li>
+                    <li>Adding new functionality</li>
+                </ul> 
+                </ul>
         </div>
     
     <div id="CasyStudy" class="step overview" data-x="-225" data-y="100">
@@ -182,7 +260,7 @@
         <div id="overview5" class="step" data-x="-1000" data-y="4000" data-z="-100000" data-scale="3">
         </div>
         
-        <div id="CaseStudySuccess" class="step slide" data-x="-2000" data-y="4000" data-z="-100000">
+        <div style="opacity: 1;" id="CaseStudySuccess" class="step slide" data-x="-2000" data-y="4000" data-z="-100000">
             <h1>Purpose of Case Study</h1>
             <br>
             <ul>
@@ -197,7 +275,7 @@
              </ul>
         </div>
         
-        <div id="ChoiseOfCaseStudy" class="step slide" data-x="-1000" data-y="4000" data-z="-100000">
+        <div style="opacity: 1;" id="ChoiseOfCaseStudy" class="step slide" data-x="-1000" data-y="4000" data-z="-100000">
             <h1>Choise of Case Study</h1>
             <br>
             <ul>
@@ -207,11 +285,77 @@
              </ul>
         </div>
         
-        <div id="Tillvagagangssatt" class="step slide" data-x="0" data-y="4000" data-z="-100000">
+        <div style="opacity: 1;" id="Tillvagagangssatt" class="step slide" data-x="0" data-y="4000" data-z="-100000">
             <h1>Collecting data</h1>
             <br>
             <ul>
                 <li>Genius design</li>
+                <li>Sitemap</li>
+                <li>Wireflow</li>
+                <ul>
+                    <li>--> Paper prototypes</li>
+                </ul>
+                <li>Observation tests - Paper prototypes</li>
+                <ul>
+                    <li>--> System design</li>
+                </ul>
+                <li>Observation tests/Interview - System design</li>
+                <ul>
+                    <li>--> Answers</li>
+                </ul>
+            </ul>
+        </div>
+        
+        <div id="inspiration" class="step" data-x="-6000" data-y="400" data-z="-100000" data-rotate-y="90">
+            <h1 style="margin-left: auto; margin-right: auto; width: 15em; margin-bottom: 1em;">Inspiration for Genius Design</h1>
+            <img src="gd1.jpg" style="width:250px;height:350px; background-color: white;">
+            <img src="gd2.jpg" style="width:250px;height:350px; background-color: white;">
+            <img src="gd3.png" style="width:250px;height:350px; background-color: white;">
+        </div>
+        
+        <div id="sitemap" class="step" data-x="-6000" data-y="1600" data-z="-100000" data-rotate-y="90">
+            <h1 style="margin-left: auto; margin-right: auto; width: 9em; margin-bottom: 1em;">Sitemap</h1>
+            <img src="sitemap.png" style="width:600px;height:600px; background-color: white;">
+        </div>
+        
+        <div id="wireflow" class="step" data-x="-6000" data-y="2800" data-z="-100000" data-rotate-y="90">
+            <h1 style="margin-left: auto; margin-right: auto; width: 5em;">Wireflow</h1>
+            <img src="wireflow.png" style="width:800px;height:800px; background-color: white;">
+        </div>
+        
+        <div style="opacity: 1;" id="Tillvagagangssatt4" class="step slide" data-x="0" data-y="4000" data-z="-100000">
+            <h1>Collecting data</h1>
+            <br>
+            <ul>
+                <li>Genius design</li>
+                <li>Sitemap</li>
+                <li>Wireflow</li>
+                <ul>
+                    <li>--> Paper prototypes</li>
+                </ul>
+                <li>Observation tests - Paper prototypes</li>
+                <ul>
+                    <li>--> System design</li>
+                </ul>
+                <li>Observation tests/Interview - System design</li>
+                <ul>
+                    <li>--> Answers</li>
+                </ul>
+            </ul>
+        </div>
+        
+        <div id="observationform" class="step" data-x="2000" data-y="4000" data-z="-99000" data-rotate-y="-90">
+            <h1 style="margin-left: auto; margin-right: auto; width: 8em;">Observation form</h1>
+            <img src="observationform.png" style="width:700px;height:700px; background-color: white;">
+        </div>
+        
+        <div style="opacity: 1;" id="Tillvagagangssatt5" class="step slide" data-x="0" data-y="4000" data-z="-100000">
+            <h1>Collecting data</h1>
+            <br>
+            <ul>
+                <li>Genius design</li>
+                <li>Sitemap</li>
+                <li>Wireflow</li>
                 <ul>
                     <li>--> Paper prototypes</li>
                 </ul>
@@ -227,17 +371,19 @@
         </div>
         
         <div id="PaperPrototypes" class="step" data-x="-6000" data-y="4000" data-z="-100000" data-rotate-y="90">
-            <img src="web.design.prototype 1.png" style="width:350px;height:500px; background-color: white;">
-            <img src="web.design.prototype 2.png" style="width:350px;height:500px; background-color: white;">
-            <img src="web.design.prototype 3.png" style="width:350px;height:500px; background-color: white;">
-            <img src="web.design.prototype 4.png" style="width:350px;height:500px; background-color: white;">
+            <img src="web.design.prototype 1.png" style="width:250px;height:350px; background-color: white;">
+            <img src="web.design.prototype 2.png" style="width:250px;height:350px; background-color: white;">
+            <img src="web.design.prototype 3.png" style="width:250px;height:350px; background-color: white;">
+            <img src="web.design.prototype 4.png" style="width:250px;height:350px; background-color: white;">
         </div>
         
-        <div id="Tillvagagangssatt2" class="step slide" data-x="0" data-y="4000" data-z="-100000">
+        <div style="opacity: 1;" id="Tillvagagangssatt2" class="step slide" data-x="0" data-y="4000" data-z="-100000">
             <h1>Collecting data</h1>
             <br>
             <ul>
                 <li>Genius design</li>
+                <li>Sitemap</li>
+                <li>Wireflow</li>
                 <ul>
                     <li>--> Paper prototypes</li>
                 </ul>
@@ -253,14 +399,16 @@
         </div>
         
         <div id="Systemdesign" class="step" data-x="-6000" data-y="5300" data-z="-100000" data-rotate-y="90">
-            <img src="screenshot.png" style="width:1300px;height:1000px;display: block;margin-left: auto;margin-right: auto;">
+            <img src="screenshot.png" style="width:1000px;height:800px;display: block;margin-left: auto;margin-right: auto;">
         </div>
         
-        <div id="Tillvagagangssatt3" class="step slide" data-x="0" data-y="4000" data-z="-100000">
+        <div style="opacity: 1;" id="Tillvagagangssatt3" class="step slide" data-x="0" data-y="4000" data-z="-100000">
             <h1>Collecting data</h1>
             <br>
             <ul>
                 <li>Genius design</li>
+                <li>Sitemap</li>
+                <li>Wireflow</li>
                 <ul>
                     <li>--> Paper prototypes</li>
                 </ul>
